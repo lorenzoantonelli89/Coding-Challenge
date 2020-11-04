@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 15px 15px 15px 15px;
+  height: 800px;
+  width: 1200px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header > img{
+
+  width: 250px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header > h2{
+  font-size: 40px;
+  color: lime;
+  text-align: center;
+  margin-top: 14%
+}
+
+nav{
+  height: 50px;
+  width: 80%;
+  background-color: lime;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navcontainer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbutton{
+  font-family: sans-serif;
+  padding: 4px;
+}
+
+main{
+  margin-left: 120px;
+  margin-top: 80px;
+}
+
+.MonopattinoGino22, .MonopattinoMike24, .MonopattinoFede154{
+  margin-top: 30px;
+}
+
+.idmonopattino, .posizionemonopattino, .statusbattery{
+  color: white;
+}
+
+.idmonopattino{
+  display: inline-block;
+  font-size: 27px;
+}
+
+.barrastatus_orange, .barrastatus_green, .barrastatus_red{
+  height: 30px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.barrastatus_orange{
+  width: 30%;
+  background-color: orange;
+}
+
+.barrastatus_green{
+  width: 60%;
+  background-color: green;
+}
+
+.barrastatus_red{
+  width: 15%;
+  background-color: red;
+}
